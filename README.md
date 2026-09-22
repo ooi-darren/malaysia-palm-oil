@@ -6,7 +6,7 @@
 
 **Part of a [8-case-study portfolio](https://github.com/ooi-darren)**, and the first to build its core financial analysis on company annual-report disclosures rather than government/agency statistics alone.
 
-> Malaysia can't out-produce Indonesia on scale anymore. This project asks what else it can compete on -- efficiency, certification, downstream value, or an entirely new product -- and tests each claim against real data rather than assuming the answer.
+> Malaysia can't out-produce Indonesia on scale anymore. This project asks what else it can compete on: efficiency, certification, downstream value, or an entirely new product, and tests each claim against real data rather than assuming the answer.
 
 ## Recommendation
 
@@ -36,14 +36,14 @@ This project traces Malaysia's palm oil industry from its 1917 origin as a Frenc
 
 ## Explain It Simply
 
-Palm oil isn't native to Malaysia -- a French planter brought it from West Africa in 1917, and the government later used it to fight rural poverty through land schemes starting in 1961. That history built the world's biggest palm oil industry, until Indonesia, with far more land, took the top spot in 2007 and never gave it back. This project asks: if Malaysia can't win on sheer volume anymore, what can it actually compete on?
+Palm oil isn't native to Malaysia. A French planter brought it from West Africa in 1917, and the government later used it to fight rural poverty through land schemes starting in 1961. That history built the world's biggest palm oil industry, until Indonesia, with far more land, took the top spot in 2007 and never gave it back. This project asks: if Malaysia can't win on sheer volume anymore, what can it actually compete on?
 
 Four things this project found:
 
-- **Malaysia is more efficient, not less capable.** Hectare for hectare, Malaysia gets more fruit out of its land than Indonesia does -- it's just run out of room to plant more of it.
-- **"Going downstream" (into refining and chemicals) hasn't clearly paid off yet.** At Malaysia's biggest plantation company, the traditional business of just growing and selling raw palm fruit made about five times more money in 2025 than all its downstream processing combined -- though other big companies actually did better downstream, so it's not a universal rule.
-- **Certification is now the price of admission, not a bonus.** Almost all Malaysian smallholders are certified sustainable now, but we couldn't find solid evidence it earns a higher price -- what it does earn is continued access to markets like the EU.
-- **A war on the other side of the world is moving palm oil prices right now.** Because palm oil can be turned into diesel, its price tracks oil prices -- and 2026's oil crisis, triggered by a war involving Iran, is a live test of that link happening as this project was written.
+- **Malaysia is more efficient, not less capable.** Hectare for hectare, Malaysia gets more fruit out of its land than Indonesia does; it's just run out of room to plant more of it.
+- **"Going downstream" (into refining and chemicals) hasn't clearly paid off yet.** At Malaysia's biggest plantation company, the traditional business of just growing and selling raw palm fruit made about five times more money in 2025 than all its downstream processing combined, though other big companies actually did better downstream, so it's not a universal rule.
+- **Certification is now the price of admission, not a bonus.** Almost all Malaysian smallholders are certified sustainable now, but we couldn't find solid evidence it earns a higher price. What it does earn is continued access to markets like the EU.
+- **A war on the other side of the world is moving palm oil prices right now.** Because palm oil can be turned into diesel, its price tracks oil prices, and 2026's oil crisis, triggered by a war involving Iran, is a live test of that link happening as this project was written.
 
 (New to terms like "PBIT," "MSPO," or "POGO spread"? See the Glossary near the bottom.)
 
@@ -53,7 +53,7 @@ Malaysia's palm oil strategy is often discussed in slogans, "move up the value c
 
 ## Value Chain: From Fruit to Five Product Categories
 
-Fresh fruit bunch (FFB) is milled within 24-48 hours into crude palm oil (CPO) and palm kernel oil (PKO), then refined into food products, oleochemicals (soaps, cosmetics), biodiesel, and animal feed -- and, as of August 2026, a fifth category: AI data-center cooling fluid. Full walkthrough: `notebooks/01_history_and_origins.ipynb`.
+Fresh fruit bunch (FFB) is milled within 24-48 hours into crude palm oil (CPO) and palm kernel oil (PKO), then refined into food products, oleochemicals (soaps, cosmetics), biodiesel, and animal feed. As of August 2026, there's a fifth category too: AI data-center cooling fluid. Full walkthrough: `notebooks/01_history_and_origins.ipynb`.
 
 ## Global Landscape & Competitive Position
 
@@ -150,7 +150,7 @@ pip install -r requirements.txt
 jupyter notebook notebooks/
 ```
 
-All processed data is committed to this repository under sources whose licences permit redistribution (FAOSTAT and World Bank data are CC BY 4.0; EIA data is US public domain). One data source considered during this project (a third-party MPOB data redistributor) was found to prohibit redistribution and was removed before publication -- see `notebooks/06_price_and_demand_shock.ipynb` for the full disclosure.
+All processed data is committed to this repository under sources whose licences permit redistribution (FAOSTAT and World Bank data are CC BY 4.0; EIA data is US public domain). One data source considered during this project (a third-party MPOB data redistributor) was found to prohibit redistribution and was removed before publication; see `notebooks/06_price_and_demand_shock.ipynb` for the full disclosure.
 
 ## Project Structure
 
