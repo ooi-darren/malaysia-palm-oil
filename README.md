@@ -4,7 +4,7 @@
 
 <img src="./outputs/figures/06_sdguthrie_segment_pbit.png" width="800" alt="SD Guthrie FY2025: upstream PBIT of RM2.63 billion versus downstream PBIT of RM484 million">
 
-**Part of a [10-case-study portfolio](https://github.com/ooi-darren)**, and the first to build its core financial analysis on company annual-report disclosures rather than government/agency statistics alone.
+**Part of a [11-case-study portfolio](https://github.com/ooi-darren)**, and the first to build its core financial analysis on company annual-report disclosures rather than government/agency statistics alone.
 
 > Malaysia can't out-produce Indonesia on scale anymore. This project asks what else it can compete on: efficiency, certification, downstream value, or an entirely new product, and tests each claim against real data rather than assuming the answer.
 
